@@ -48,6 +48,7 @@ public class AutumnalForestBiomeCreators {
         DefaultBiomeFeatures.addFrozenTopLayer(generationSettings);
 
         Generation.vegetalDecorationFeatures(generationSettings, 
+            AutumnalForestConfiguredFeatures.AUTUMNAL_FOREST_PUMPKINS,
             AutumnalForestConfiguredFeatures.AUTUMNAL_FOREST_TREES,
             ConfiguredFeatures.SEAGRASS_RIVER
         );
