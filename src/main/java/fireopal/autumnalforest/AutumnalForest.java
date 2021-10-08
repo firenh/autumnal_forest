@@ -1,5 +1,6 @@
 package fireopal.autumnalforest;
 
+import fireopal.autumnalforest.biomes.AutumnalForestBiomeAdditions;
 import fireopal.autumnalforest.biomes.AutumnalForestBiomes;
 import fireopal.autumnalforest.features.AutumnalForestConfiguredFeatures;
 import net.fabricmc.api.ModInitializer;
@@ -12,6 +13,7 @@ public class AutumnalForest implements ModInitializer {
 	public void onInitialize() {
 		AutumnalForestConfiguredFeatures.init();
 		AutumnalForestBiomes.init();
+		AutumnalForestBiomeAdditions.init();
 	}
 
 	public static Identifier id(String id) {

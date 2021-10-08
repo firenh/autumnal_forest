@@ -4,9 +4,8 @@
   "package": "fireopal.autumnalforest.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "BuiltinBiomesAccessor",
+    "AddBaseBiomesAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
