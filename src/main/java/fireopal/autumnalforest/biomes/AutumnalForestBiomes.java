@@ -14,7 +14,7 @@ public class AutumnalForestBiomes {
     public static final Biome GOLDEN_AUTUMNAL_FOREST = createAutumnalForestBiome(0xFEA920, 0.15F, 0.25F);
     public static final Biome RED_AUTUMNAL_FOREST = createAutumnalForestBiome(0xCC3913, 0.15F, 0.45F);
     public static final Biome PURPLE_AUTUMNAL_FOREST = createAutumnalForestBiome(0x770D38, 0.15F, 0.35F);
-    public static final Biome BROWN_AUTUMNAL_FOREST = createAutumnalForestBiome(0x794924, 0.1F, 0.1F);
+    public static final Biome BROWN_AUTUMNAL_FOREST = createAutumnalForestBiome(0x793d24, 0.1F, 0.1F);
 
     private static void register(RegistryKey<Biome> key, Biome biome) {
         Registry.register(BuiltinRegistries.BIOME, key.getValue(), biome);

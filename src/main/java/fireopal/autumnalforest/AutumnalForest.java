@@ -1,8 +1,8 @@
 package fireopal.autumnalforest;
 
-import fireopal.autumnalforest.biomes.AutumnalForestBiomeAdditions;
 import fireopal.autumnalforest.biomes.AutumnalForestBiomes;
 import fireopal.autumnalforest.features.AutumnalForestConfiguredFeatures;
+import fireopal.autumnalforest.gen.AutumnalForestBiomeAdditions;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 
